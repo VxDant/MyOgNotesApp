@@ -1,0 +1,48 @@
+
+u
+java:S2293È"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦öóäÿÿÿÿÿ
+u
+java:S2293”"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦öóäÿÿÿÿÿ
+f	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº–ˆ
+g	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–«ÄÙ
+g	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šºî€
+l	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ×—³ùÿÿÿÿ
+f	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹§>
+l	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦öóäÿÿÿÿÿ
+g	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñëÜÊ
+g	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú†í
+g	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šºî€
+f	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹§>
+l	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦öóäÿÿÿÿÿ
+g	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñëÜÊ
+z
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "_query".(ÛŠš€üÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ó¬Âòúÿÿÿÿ
+g
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ùÃÌé
+g
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(®ş±Ã
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(šÆ¿ˆıÿÿÿÿ
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(Ãş”«ıÿÿÿÿ
+g
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ú®Ú±
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ôİÕıÿÿÿÿ
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(¤î˜Óüÿÿÿÿ
+d	java:S116"ORename this field "__db" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÛôÇ
+y	java:S116!"dRename this field "__insertionAdapterOfNotes" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì®Ù€
+v	java:S116#"aRename this field "__updateAdapterOfNotes" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıèÛÿ
+	java:S116%"eRename this field "__preparedStmtOfDeleteNote" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÿøşÿÿÿÿ
+h
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(æº–ˆ
+n
+java:S3776º"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ƒ¸ºúÿÿÿÿ
+I
+java:S1113ù"-Do not override the Object.finalize() method.(œäºÒúÿÿÿÿ
+i
+java:S3776€"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(³Äƒ
+I
+java:S1113Å"-Do not override the Object.finalize() method.(œäºÒúÿÿÿÿ
