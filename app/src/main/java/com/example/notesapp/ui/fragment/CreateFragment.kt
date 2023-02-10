@@ -1,6 +1,7 @@
 package com.example.notesapp.ui.fragment
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,6 +15,12 @@ import com.example.notesapp.data.local.model.Notes
 import com.example.notesapp.databinding.FragmentCreateBinding
 import com.example.notesapp.utils.AppConstants
 import com.example.notesapp.viewmodels.HomeFragmentViewModel
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.ValueEventListener
+import com.google.firebase.database.ktx.database
+import com.google.firebase.database.ktx.getValue
+import com.google.firebase.ktx.Firebase
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -34,6 +41,26 @@ class CreateFragment : Fragment() {
         binding = FragmentCreateBinding.inflate(inflater, container, false)
 
         (requireActivity() as AppCompatActivity).supportActionBar?.title = "Create Note"
+
+        val database = Firebase.database
+        val myRef = database.getReference("message")
+
+
+        myRef.addValueEventListener(object: ValueEventListener {
+
+            override fun onDataChange(snapshot: DataSnapshot) {
+                // This method is called once with the initial value and again
+                // whenever data at this location is updated.
+                val value = snapshot.getValue<String>()
+                Log.d("value", "Value is: " + value)
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                Log.w("TAG", "Failed to read value.", error.toException())
+            }
+
+        })
+
 
         binding.greenColour.setImageResource(R.drawable.ic_baseline_done_24)
 
@@ -72,6 +99,9 @@ class CreateFragment : Fragment() {
 
         binding.btnSaveNotes.setOnClickListener {
             createNotes(it)
+
+            myRef.setValue(binding.etTitle.text.toString())
+
 
 
         }

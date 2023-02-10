@@ -9,15 +9,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.core.text.buildSpannedString
-import androidx.core.text.toSpannable
+import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.Navigation
 import com.example.notesapp.R
 import com.example.notesapp.databinding.FragmentSignInBinding
+import com.example.notesapp.ui.`interface`.FirebaseInstanceChecker
 
 
-class SignInFragment : Fragment() {
+class SignInFragment : Fragment()  {
 
     lateinit var binding: FragmentSignInBinding
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,15 +32,25 @@ class SignInFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
+
         binding = FragmentSignInBinding.inflate(layoutInflater, container, false)
+
+        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Login page"
+
 
         binding.tvCreateAccount.setText("Don't have an Account? create account", TextView.BufferType.SPANNABLE)
         val spannableText = binding.tvCreateAccount.text as Spannable
         spannableText.setSpan(
-            ForegroundColorSpan(resources.getColor(R.color.purple_700)),
+            ForegroundColorSpan(resources.getColor(R.color.primary_button_background_color)),
             22, spannableText.length,
             SPAN_INCLUSIVE_INCLUSIVE
         )
+
+        binding.tvCreateAccount.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_signInFragment_to_createAccountFragment)
+
+
+        }
         // Inflate the layout for this fragment
         return binding.root
     }

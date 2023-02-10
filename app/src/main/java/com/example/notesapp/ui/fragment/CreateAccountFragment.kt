@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import com.example.notesapp.R
 
 
@@ -21,6 +22,9 @@ class CreateAccountFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+
+        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Sign Up"
+
         return inflater.inflate(R.layout.fragment_create_account, container, false)
     }
 

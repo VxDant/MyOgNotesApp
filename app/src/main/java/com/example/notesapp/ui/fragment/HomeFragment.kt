@@ -11,6 +11,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.notesapp.R
 import com.example.notesapp.databinding.FragmentHomeBinding
+import com.example.notesapp.ui.MainActivity
 import com.example.notesapp.ui.adapter.NotesAdapter
 import com.example.notesapp.utils.AppConstants
 import com.example.notesapp.viewmodels.HomeFragmentViewModel
@@ -35,6 +36,8 @@ class HomeFragment : Fragment() {
         binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
 
         (requireActivity() as AppCompatActivity).supportActionBar?.title = "Home"
+
+        (requireActivity() as MainActivity).isFlag
         binding.rcvAllNotes.layoutManager = GridLayoutManager(requireContext(), 2)
 
 

@@ -3,8 +3,6 @@
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 x
 Happ/src/androidTest/java/com/example/notesapp/ExampleInstrumentedTest.kt,c\0\c0c1b4a05dd2e5d00bd3743a2bda43ae5cc05f62
 F
@@ -21,18 +19,12 @@ h
 8app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml,6\e\6ec7d34b130497a10dc92abcde9b313d370a89df
 d
 4app/src/main/res/drawable/ic_launcher_background.xml,4\9\49845c622cb06d895975c7b1e3f943e320bce688
-Y
-)app/src/main/res/layout/activity_main.xml,7\6\76b07e40f24cce093536731477540f12e7da3cb6
 ^
 .app/src/main/res/xml/data_extraction_rules.xml,3\b\3bc4db92963be77ebed9d7a4fff09127a1110e4d
 U
 %app/src/main/res/xml/backup_rules.xml,e\0\e0bc1eda8e2c689cb79d5b6e5cfd11385f06c2b8
-b
-2app/src/main/res/layout/activity_splash_screen.xml,f\7\f7df685f78aceccfe92840b30dd70c70674d7944
 a
 1app/src/main/res/drawable/ic_baseline_done_24.xml,a\e\aea497359f888c655cf5b4a3aa74d7eed3baa523
-t
-Dapp/src/main/java/com/example/notesapp/ui/fragment/CreateFragment.kt,8\6\8633057a62855c3a44b1e7b68803772dc088cc37
 Y
 )app/src/main/res/drawable/paper_notes.xml,3\1\3154206b37549cbe3f4d0b059426f1c6925a08cc
 ‚
@@ -53,10 +45,6 @@ W
 'app/src/main/res/drawable/ic_filter.xml,e\c\ecf782e6d7fef0ed2c5905d1c6f98cf104d3dde7
 X
 (app/src/main/res/drawable/save_notes.xml,f\7\f74ae6d208f5414bfd42181fa47023e00dea574e
-Z
-*app/src/main/res/drawable/create_notes.xml,0\1\01d2dc0d413817cab66d412c1f56da3c1d3b3009
-i
-9app/src/main/java/com/example/notesapp/ui/MainActivity.kt,0\f\0f11633605e45c510cc04303acf78fd25d35d50e
 W
 'app/src/main/res/drawable/green_dot.xml,c\f\cfeed3e3fb907079f92b2cb9119f4545a7590c1f
 X
@@ -81,3 +69,5 @@ _
 /app/src/main/res/layout/fragment_edit_notes.xml,8\4\84eabb464035564b1adaa9cfb7ff6f1fe47ab217
 w
 Gapp/src/main/java/com/example/notesapp/ui/fragment/EditNotesFragment.kt,3\d\3de5031945dc0fcc1527f29eb9bbe711bad19b56
+q
+Aapp/src/main/java/com/example/notesapp/ui/adapter/NotesAdapter.kt,0\f\0f9b8008b922b4fa7e96e742f470c99035c4a859

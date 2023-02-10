@@ -12,5 +12,7 @@
     <color name="yellow">#FFF000</color>
     <color name="green">#00FF00</color>
     <color name="grey">#7C817C</color>
+    <color name="primary_button_background_color">#E20074</color>
+
 
 </resources>
